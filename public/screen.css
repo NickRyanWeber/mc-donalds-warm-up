@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,4 +11,27 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-color {
+  background-color: #f80000;
+}
+
+.gold-text {
+  color: #fecd00;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 0.25rem;
 }
